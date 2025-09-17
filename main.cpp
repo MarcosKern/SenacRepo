@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+// Comando do terminal para compilar o codigo para um arquivo de execução:
+// g++ nomeDoArquivo.cpp -o arquivo
+// Comando para executar o arquivo:
+// ./arquivo
+
 int main() {
     string nome;
     int idade;
