@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     string nome;
     int notaA, notaB, notaC;
 
@@ -20,15 +21,19 @@ int main() {
     cout << "Aluno: " << nome << endl;
     cout << "Média: " << media << endl;
     cout << "Nota A: " << notaA << "; Nota B: " << notaB << "; Nota C: " << notaC << endl;
-    if(media >= 7.0) {
+    if (media >= 7.0)
+    {
         cout << "Aprovado!" << endl;
-    } else if(media < 7 && media >= 5) {
+    }
+    else if (media < 7 && media >= 5)
+    {
         cout << "Recuperação!" << endl;
-    } else {
+    }
+    else
+    {
         cout << "Reprovado!" << endl;
     }
     cout << "=======================================================" << endl;
-
 
     return 0;
 }

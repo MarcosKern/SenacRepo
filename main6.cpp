@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     string nome;
     float peso, altura;
 
@@ -21,15 +22,24 @@ int main() {
     cout << "Altura: " << altura << endl;
     cout << endl;
     cout << "Seu IMC é de " << imc << endl;
-    if(imc < 18.5 ) {
+    if (imc < 18.5)
+    {
         cout << "Abaixo do peso." << endl;
-    } else if(imc >= 18.5 && imc < 25) {
+    }
+    else if (imc >= 18.5 && imc < 25)
+    {
         cout << "Faixa ideal de peso." << endl;
-    } else if(imc >= 25 && imc < 30) {
+    }
+    else if (imc >= 25 && imc < 30)
+    {
         cout << "Sobrepeso." << endl;
-    } else if(imc >= 30 && imc < 40) {
+    }
+    else if (imc >= 30 && imc < 40)
+    {
         cout << "Obeso." << endl;
-    } else {
+    }
+    else
+    {
         cout << "Obesidade extrema." << endl;
     }
 
